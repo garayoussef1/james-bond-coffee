@@ -110,7 +110,7 @@ export default function SplashScreen({ onDone }) {
         <span className="splash__logo-fallback" style={{ display: 'none' }}>007</span>
 
         <div className="splash__gold-line" />
-        <p className="splash__tagline">"Shaken, not stirred"</p>
+        <p className="splash__tagline">"7 jours sur 7, 007 à votre service"</p>
       </div>
 
     </div>

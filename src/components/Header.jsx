@@ -25,7 +25,7 @@ export default function Header({ theme, toggleTheme }) {
 
       {/* Slogan */}
       <p className="header__slogan">
-        "<span>Shaken</span>, not stirred"
+        "<span>7 jours sur 7</span>, 007 à votre service"
       </p>
     </header>
   )
