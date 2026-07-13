@@ -120,7 +120,7 @@
     "categorie": "Sweet Drinks",
     "icone": "🥤",
     "items": [
-      { "id": 54, "nom": "Canette",             "prix": "3,5 DT", "photo": "/images/energie.svg", "badge": null },
+      { "id": 54, "nom": "Canette",             "prix": "3,5 DT", "photo": "/images/canette.svg", "badge": null },
       { "id": 55, "nom": "Eau 0.5L",            "prix": "1,5 DT", "photo": "/images/eau.svg", "badge": null },
       { "id": 56, "nom": "Eau 1L",              "prix": "3 DT",   "photo": "/images/eau.svg", "badge": null },
       { "id": 57, "nom": "Eau Gazeifiee",       "prix": "3 DT",   "photo": "/images/eau.svg", "badge": null },
@@ -184,6 +184,76 @@
         "description": "Kinder Bueno, Nutella, Chantilly",
         "photo": "/images/crepe-sucree.svg",
         "badge": null
+      },
+      {
+        "id": 69,
+        "nom": "Crêpe James Bond",
+        "prix": "15 DT",
+        "description": "Nutella, Oréo, Biscuit, Kinder, Chocolat blanc",
+        "photo": "/images/crepe-sucree.svg",
+        "badge": "Populaire"
+      },
+      {
+        "id": 70,
+        "nom": "Crêpe Oréo",
+        "prix": "12 DT",
+        "description": "Oréo",
+        "photo": "/images/crepe-sucree.svg",
+        "badge": null
+      },
+      {
+        "id": 71,
+        "nom": "Crêpe Oréo Banane",
+        "prix": "14 DT",
+        "description": "Oréo, Banane",
+        "photo": "/images/crepe-sucree.svg",
+        "badge": null
+      },
+      {
+        "id": 72,
+        "nom": "Crêpe Nutella Banane",
+        "prix": "12 DT",
+        "description": "Nutella, Banane",
+        "photo": "/images/crepe-sucree.svg",
+        "badge": null
+      },
+      {
+        "id": 73,
+        "nom": "Specula",
+        "prix": "12 DT",
+        "description": "Nutella, Speculos, Beurre salé",
+        "photo": "/images/crepe-sucree.svg",
+        "badge": null
+      }
+    ]
+  },
+  {
+    "categorie": "Omelettes",
+    "icone": "🍳",
+    "items": [
+      {
+        "id": 74,
+        "nom": "Omelette Nature",
+        "prix": "8 DT",
+        "description": "Oeuf, Fromage",
+        "photo": "/images/omelette.svg",
+        "badge": null
+      },
+      {
+        "id": 75,
+        "nom": "Omelette au Choix",
+        "prix": "9 DT",
+        "description": "Jambon ou Thon",
+        "photo": "/images/omelette.svg",
+        "badge": null
+      },
+      {
+        "id": 76,
+        "nom": "Omelette Bond",
+        "prix": "11 DT",
+        "description": "Thon, Jambon, Fromage",
+        "photo": "/images/omelette.svg",
+        "badge": "Populaire"
       }
     ]
   },
