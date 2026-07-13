@@ -24,10 +24,10 @@
     "categorie": "Caffè Macchiato",
     "icone": "☕",
     "items": [
-      { "id": 10, "nom": "Caramel",  "prix": "5,5 DT", "photo": "/images/latte.svg",    "badge": "Populaire" },
-      { "id": 11, "nom": "Vanille",  "prix": "5,5 DT", "photo": "/images/latte.svg",    "badge": null },
-      { "id": 12, "nom": "Toffi",    "prix": "5,5 DT", "photo": "/images/latte.svg",    "badge": null },
-      { "id": 13, "nom": "Noisette", "prix": "5,5 DT", "photo": "/images/latte.svg",    "badge": null },
+      { "id": 10, "nom": "Caramel",  "prix": "5,5 DT", "photo": "/images/macchiato.svg", "badge": "Populaire" },
+      { "id": 11, "nom": "Vanille",  "prix": "5,5 DT", "photo": "/images/macchiato.svg", "badge": null },
+      { "id": 12, "nom": "Toffi",    "prix": "5,5 DT", "photo": "/images/macchiato.svg", "badge": null },
+      { "id": 13, "nom": "Noisette", "prix": "5,5 DT", "photo": "/images/macchiato.svg", "badge": null },
       { "id": 14, "nom": "Tiramisu", "prix": "5,5 DT", "photo": "/images/tiramisu.svg", "badge": null }
     ]
   },
@@ -55,22 +55,22 @@
     "categorie": "Milkshake",
     "icone": "🥛",
     "items": [
-      { "id": 23, "nom": "Oréo",         "prix": "8,5 DT", "photo": "/images/frappe.svg", "badge": "Populaire" },
-      { "id": 24, "nom": "Snickers",     "prix": "8,5 DT", "photo": "/images/frappe.svg", "badge": null },
-      { "id": 25, "nom": "Nutella",      "prix": "8,5 DT", "photo": "/images/frappe.svg", "badge": "Populaire" },
-      { "id": 26, "nom": "Nutella Oréo", "prix": "9,5 DT", "photo": "/images/frappe.svg", "badge": null },
-      { "id": 27, "nom": "Bounty",       "prix": "8,5 DT", "photo": "/images/frappe.svg", "badge": null }
+      { "id": 23, "nom": "Oréo",         "prix": "8,5 DT", "photo": "/images/milkshake.svg", "badge": "Populaire" },
+      { "id": 24, "nom": "Snickers",     "prix": "8,5 DT", "photo": "/images/milkshake.svg", "badge": null },
+      { "id": 25, "nom": "Nutella",      "prix": "8,5 DT", "photo": "/images/milkshake.svg", "badge": "Populaire" },
+      { "id": 26, "nom": "Nutella Oréo", "prix": "9,5 DT", "photo": "/images/milkshake.svg", "badge": null },
+      { "id": 27, "nom": "Bounty",       "prix": "8,5 DT", "photo": "/images/milkshake.svg", "badge": null }
     ]
   },
   {
     "categorie": "Mojito",
     "icone": "🍹",
     "items": [
-      { "id": 28, "nom": "Virgin",  "prix": "6 DT", "photo": "/images/limonade.svg", "badge": null },
-      { "id": 29, "nom": "Bleu",    "prix": "7 DT", "photo": "/images/limonade.svg", "badge": null },
-      { "id": 30, "nom": "Red",     "prix": "7 DT", "photo": "/images/limonade.svg", "badge": "Populaire" },
-      { "id": 31, "nom": "Passion", "prix": "7 DT", "photo": "/images/limonade.svg", "badge": null },
-      { "id": 32, "nom": "Peche",   "prix": "7 DT", "photo": "/images/limonade.svg", "badge": null }
+      { "id": 28, "nom": "Virgin",  "prix": "6 DT", "photo": "/images/mojito.svg", "badge": null },
+      { "id": 29, "nom": "Bleu",    "prix": "7 DT", "photo": "/images/mojito.svg", "badge": null },
+      { "id": 30, "nom": "Red",     "prix": "7 DT", "photo": "/images/mojito.svg", "badge": "Populaire" },
+      { "id": 31, "nom": "Passion", "prix": "7 DT", "photo": "/images/mojito.svg", "badge": null },
+      { "id": 32, "nom": "Peche",   "prix": "7 DT", "photo": "/images/mojito.svg", "badge": null }
     ]
   },
   {
@@ -93,7 +93,7 @@
     "items": [
       { "id": 41, "nom": "Citronnade",        "prix": "6 DT", "photo": "/images/limonade.svg", "badge": "Populaire" },
       { "id": 42, "nom": "Citronnade Amande", "prix": "8 DT", "photo": "/images/limonade.svg", "badge": null },
-      { "id": 45, "nom": "Jus de Fraise",     "prix": "6 DT", "photo": "/images/smoothie.svg", "badge": null },
+      { "id": 45, "nom": "Jus de Fraise",     "prix": "6 DT", "photo": "/images/fraise.svg", "badge": null },
       { "id": 64, "nom": "Jus Frais Maison",  "prix": "10 DT", "photo": "/images/smoothie.svg", "badge": null }
     ]
   },
@@ -101,10 +101,10 @@
     "categorie": "Hot Drinks",
     "icone": "🍫",
     "items": [
-      { "id": 47, "nom": "Chocolat",                  "prix": "5 DT",   "photo": "/images/cappuccino.svg", "badge": null },
+      { "id": 47, "nom": "Chocolat",                  "prix": "5 DT",   "photo": "/images/chocolat-chaud.svg", "badge": null },
       { "id": 48, "nom": "Mocca",                     "prix": "5 DT",   "photo": "/images/cappuccino.svg", "badge": null },
-      { "id": 49, "nom": "Nutella + Creme Chantilly", "prix": "7,5 DT", "photo": "/images/cappuccino.svg", "badge": "Populaire" },
-      { "id": 50, "nom": "Snickers",                  "prix": "6 DT",   "photo": "/images/cappuccino.svg", "badge": null }
+      { "id": 49, "nom": "Nutella + Creme Chantilly", "prix": "7,5 DT", "photo": "/images/chocolat-chaud.svg", "badge": "Populaire" },
+      { "id": 50, "nom": "Snickers",                  "prix": "6 DT",   "photo": "/images/chocolat-chaud.svg", "badge": null }
     ]
   },
   {
@@ -120,11 +120,11 @@
     "categorie": "Sweet Drinks",
     "icone": "🥤",
     "items": [
-      { "id": 54, "nom": "Canette",             "prix": "3,5 DT", "photo": "/images/limonade.svg", "badge": null },
-      { "id": 55, "nom": "Eau 0.5L",            "prix": "1,5 DT", "photo": "/images/limonade.svg", "badge": null },
-      { "id": 56, "nom": "Eau 1L",              "prix": "3 DT",   "photo": "/images/limonade.svg", "badge": null },
-      { "id": 57, "nom": "Eau Gazeifiee",       "prix": "3 DT",   "photo": "/images/limonade.svg", "badge": null },
-      { "id": 58, "nom": "Boisson Energetique", "prix": "7 DT",   "photo": "/images/limonade.svg", "badge": null }
+      { "id": 54, "nom": "Canette",             "prix": "3,5 DT", "photo": "/images/energie.svg", "badge": null },
+      { "id": 55, "nom": "Eau 0.5L",            "prix": "1,5 DT", "photo": "/images/eau.svg", "badge": null },
+      { "id": 56, "nom": "Eau 1L",              "prix": "3 DT",   "photo": "/images/eau.svg", "badge": null },
+      { "id": 57, "nom": "Eau Gazeifiee",       "prix": "3 DT",   "photo": "/images/eau.svg", "badge": null },
+      { "id": 58, "nom": "Boisson Energetique", "prix": "7 DT",   "photo": "/images/energie.svg", "badge": null }
     ]
   },
   {
@@ -143,7 +143,15 @@
         "id": 60,
         "nom": "Thon Jambon",
         "prix": "12 DT",
-        "description": "A confirmer",
+        "description": "Thon, Jambon, Mozzarella, Sauce blanche, Persil, Emince oignon frais",
+        "photo": "/images/crepe-salee.svg",
+        "badge": null
+      },
+      {
+        "id": 68,
+        "nom": "Crêpe Tunisienne",
+        "prix": "12 DT",
+        "description": "Thon, Œuf, Harissa",
         "photo": "/images/crepe-salee.svg",
         "badge": null
       }
@@ -173,7 +181,7 @@
         "id": 63,
         "nom": "Kinder Bueno",
         "prix": "12 DT",
-        "description": "A confirmer",
+        "description": "Kinder Bueno, Nutella, Chantilly",
         "photo": "/images/crepe-sucree.svg",
         "badge": null
       }
