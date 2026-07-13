@@ -1,0 +1,170 @@
+/* ── SplashScreen — thème 007 noir/or ─────────────────────────────────────── */
+
+.splash {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* ── Phases ── */
+.splash--enter  { opacity: 1; }
+.splash--show   { opacity: 1; }
+.splash--exit   { opacity: 0; pointer-events: none; transform: scale(1.04); }
+
+/* ── Tunnel 007 ── */
+.splash__tunnel {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash__ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(212, 175, 55, 0.55);
+  animation: tunnel-ring 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: calc(var(--i) * 0.07s);
+  width: calc(30px + var(--i) * 90px);
+  height: calc(30px + var(--i) * 90px);
+  opacity: 0;
+}
+
+@keyframes tunnel-ring {
+  0%   { opacity: 0.9; transform: scale(0.1); }
+  60%  { opacity: 0.45; transform: scale(0.85); }
+  100% { opacity: 0;   transform: scale(1.6); }
+}
+
+/* ── Silhouette James Bond ── */
+.splash__agent {
+  position: absolute;
+  width: 110px;
+  z-index: 2;
+  animation: agent-appear 0.5s ease 0.4s both;
+  filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.35));
+}
+
+@keyframes agent-appear {
+  from { opacity: 0; transform: scale(0.6) translateY(20px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* ── Vapeur de café dorée — stroke animation ── */
+.steam {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+}
+
+.steam.s1 {
+  animation: draw-steam 1s ease 0.9s both;
+}
+
+.steam.s2 {
+  animation: draw-steam 1s ease 1.05s both;
+}
+
+@keyframes draw-steam {
+  to { stroke-dashoffset: 0; }
+}
+
+/* "007" en vapeur */
+.steam-007 {
+  animation: steam-text-appear 0.6s ease 1.4s both;
+}
+
+@keyframes steam-text-appear {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 0.85; transform: translateY(0); }
+}
+
+/* ── Flash doré — café qui jaillit ── */
+.splash__gunshot {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff 0%, #D4AF37 35%, #8B5E1A 65%, transparent 80%);
+  /* Positionné côté droit (canon) */
+  right: calc(50% - 115px);
+  top: calc(50% - 28px);
+  animation: gunshot 0.3s ease 0.75s both;
+  z-index: 3;
+}
+
+@keyframes gunshot {
+  0%   { opacity: 0; transform: scale(0); }
+  25%  { opacity: 1; transform: scale(3.5); }
+  100% { opacity: 0; transform: scale(1.5) translateX(24px); }
+}
+
+/* Filet de café (remplace le rouge) */
+.splash__tunnel::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 3px;
+  background: linear-gradient(to bottom, #7B3F00 0%, transparent 100%);
+  animation: coffee-drip 0.9s ease 0.85s both;
+  transform-origin: top center;
+}
+
+@keyframes coffee-drip {
+  0%   { height: 0; opacity: 1; }
+  100% { height: 38vh; opacity: 0.75; }
+}
+
+/* ── Contenu central ── */
+.splash__content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  animation: content-reveal 0.7s ease 1.3s both;
+}
+
+@keyframes content-reveal {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Logo image réel (logo_bond_light.png) */
+.splash__logo-img {
+  height: 90px;
+  max-width: 280px;
+  object-fit: contain;
+}
+
+/* Fallback texte si image non chargée */
+.splash__logo-fallback {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #D4AF37;
+  letter-spacing: 0.2em;
+}
+
+.splash__gold-line {
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #D4AF37, transparent);
+}
+
+.splash__tagline {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 0.88rem;
+  color: #A89880;
+  margin: 0;
+}

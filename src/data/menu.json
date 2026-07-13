@@ -1,0 +1,205 @@
+﻿[
+  {
+    "categorie": "Coffee Drinks",
+    "icone": "☕",
+    "items": [
+      { "id": 1,  "nom": "Expresso",           "prix": "2,8 DT", "photo": "/images/espresso.svg",   "badge": "Populaire" },
+      { "id": 2,  "nom": "Espresso Macchiato", "prix": "3,5 DT", "photo": "/images/espresso.svg",   "badge": null },
+      { "id": 3,  "nom": "Latté",              "prix": "4 DT",   "photo": "/images/latte.svg",      "badge": null },
+      { "id": 4,  "nom": "Americano",          "prix": "3,3 DT", "photo": "/images/espresso.svg",   "badge": null },
+      { "id": 5,  "nom": "Cappuccino",         "prix": "5,5 DT", "photo": "/images/cappuccino.svg", "badge": "Populaire" },
+      { "id": 6,  "nom": "Café Turc",          "prix": "5 DT",   "photo": "/images/espresso.svg",   "badge": null }
+    ]
+  },
+  {
+    "categorie": "Italian Coffee",
+    "icone": "🇮🇹",
+    "items": [
+      { "id": 7,  "nom": "Express Nespresso",    "prix": "4 DT",   "photo": "/images/espresso.svg",   "badge": null },
+      { "id": 8,  "nom": "Cappuccino Nespresso", "prix": "4,5 DT", "photo": "/images/cappuccino.svg", "badge": null },
+      { "id": 9,  "nom": "Direct Nespresso",     "prix": "5 DT",   "photo": "/images/latte.svg",      "badge": null }
+    ]
+  },
+  {
+    "categorie": "Caffè Macchiato",
+    "icone": "☕",
+    "items": [
+      { "id": 10, "nom": "Caramel",  "prix": "5,5 DT", "photo": "/images/latte.svg",    "badge": "Populaire" },
+      { "id": 11, "nom": "Vanille",  "prix": "5,5 DT", "photo": "/images/latte.svg",    "badge": null },
+      { "id": 12, "nom": "Toffi",    "prix": "5,5 DT", "photo": "/images/latte.svg",    "badge": null },
+      { "id": 13, "nom": "Noisette", "prix": "5,5 DT", "photo": "/images/latte.svg",    "badge": null },
+      { "id": 14, "nom": "Tiramisu", "prix": "5,5 DT", "photo": "/images/tiramisu.svg", "badge": null }
+    ]
+  },
+  {
+    "categorie": "Thé",
+    "icone": "🍵",
+    "items": [
+      { "id": 15, "nom": "Normal", "prix": "2,5 DT", "photo": "/images/the.svg", "badge": null },
+      { "id": 16, "nom": "Amande", "prix": "4,5 DT", "photo": "/images/the.svg", "badge": null },
+      { "id": 17, "nom": "Pignon", "prix": "5,5 DT", "photo": "/images/the.svg", "badge": "Populaire" }
+    ]
+  },
+  {
+    "categorie": "Frappuccino",
+    "icone": "🥤",
+    "items": [
+      { "id": 18, "nom": "Caramel",  "prix": "7 DT", "photo": "/images/frappe.svg", "badge": "Populaire" },
+      { "id": 19, "nom": "Noisette", "prix": "7 DT", "photo": "/images/frappe.svg", "badge": null },
+      { "id": 20, "nom": "Mocca",    "prix": "7 DT", "photo": "/images/frappe.svg", "badge": null },
+      { "id": 21, "nom": "Chocolat", "prix": "7 DT", "photo": "/images/frappe.svg", "badge": null },
+      { "id": 22, "nom": "Cookies",  "prix": "7 DT", "photo": "/images/frappe.svg", "badge": null }
+    ]
+  },
+  {
+    "categorie": "Milkshake",
+    "icone": "🥛",
+    "items": [
+      { "id": 23, "nom": "Oréo",         "prix": "8,5 DT", "photo": "/images/frappe.svg", "badge": "Populaire" },
+      { "id": 24, "nom": "Snickers",     "prix": "8,5 DT", "photo": "/images/frappe.svg", "badge": null },
+      { "id": 25, "nom": "Nutella",      "prix": "8,5 DT", "photo": "/images/frappe.svg", "badge": "Populaire" },
+      { "id": 26, "nom": "Nutella Oréo", "prix": "9,5 DT", "photo": "/images/frappe.svg", "badge": null },
+      { "id": 27, "nom": "Bounty",       "prix": "8,5 DT", "photo": "/images/frappe.svg", "badge": null }
+    ]
+  },
+  {
+    "categorie": "Mojito",
+    "icone": "🍹",
+    "items": [
+      { "id": 28, "nom": "Virgin",  "prix": "6 DT", "photo": "/images/limonade.svg", "badge": null },
+      { "id": 29, "nom": "Bleu",    "prix": "7 DT", "photo": "/images/limonade.svg", "badge": null },
+      { "id": 30, "nom": "Red",     "prix": "7 DT", "photo": "/images/limonade.svg", "badge": "Populaire" },
+      { "id": 31, "nom": "Passion", "prix": "7 DT", "photo": "/images/limonade.svg", "badge": null },
+      { "id": 32, "nom": "Peche",   "prix": "7 DT", "photo": "/images/limonade.svg", "badge": null }
+    ]
+  },
+  {
+    "categorie": "Smoothie",
+    "icone": "🍓",
+    "items": [
+      { "id": 33, "nom": "Banane",                      "prix": "7 DT", "photo": "/images/smoothie.svg", "badge": null },
+      { "id": 34, "nom": "Fraise / Banane",             "prix": "8 DT", "photo": "/images/smoothie.svg", "badge": "Populaire" },
+      { "id": 35, "nom": "Kiwi / Banane",               "prix": "8 DT", "photo": "/images/smoothie.svg", "badge": null },
+      { "id": 36, "nom": "Peche / Banane",              "prix": "8 DT", "photo": "/images/smoothie.svg", "badge": null },
+      { "id": 37, "nom": "Framboise / Ananas / Banane", "prix": "8 DT", "photo": "/images/smoothie.svg", "badge": null },
+      { "id": 38, "nom": "Pomme / Noix de Coco / Kiwi", "prix": "8 DT", "photo": "/images/smoothie.svg", "badge": null },
+      { "id": 39, "nom": "Cassis / Framboise / Banane", "prix": "8 DT", "photo": "/images/smoothie.svg", "badge": null },
+      { "id": 40, "nom": "Pina Colada",                 "prix": "8 DT", "photo": "/images/smoothie.svg", "badge": "Populaire" }
+    ]
+  },
+  {
+    "categorie": "Fresh Cocktails",
+    "icone": "🍋",
+    "items": [
+      { "id": 41, "nom": "Citronnade",        "prix": "6 DT", "photo": "/images/limonade.svg", "badge": "Populaire" },
+      { "id": 42, "nom": "Citronnade Amande", "prix": "8 DT", "photo": "/images/limonade.svg", "badge": null },
+      { "id": 45, "nom": "Jus de Fraise",     "prix": "6 DT", "photo": "/images/smoothie.svg", "badge": null },
+      { "id": 64, "nom": "Jus Frais Maison",  "prix": "10 DT", "photo": "/images/smoothie.svg", "badge": null }
+    ]
+  },
+  {
+    "categorie": "Hot Drinks",
+    "icone": "🍫",
+    "items": [
+      { "id": 47, "nom": "Chocolat",                  "prix": "5 DT",   "photo": "/images/cappuccino.svg", "badge": null },
+      { "id": 48, "nom": "Mocca",                     "prix": "5 DT",   "photo": "/images/cappuccino.svg", "badge": null },
+      { "id": 49, "nom": "Nutella + Creme Chantilly", "prix": "7,5 DT", "photo": "/images/cappuccino.svg", "badge": "Populaire" },
+      { "id": 50, "nom": "Snickers",                  "prix": "6 DT",   "photo": "/images/cappuccino.svg", "badge": null }
+    ]
+  },
+  {
+    "categorie": "Fresh Drinks",
+    "icone": "🌊",
+    "items": [
+      { "id": 51, "nom": "Blue Moon",     "prix": "7 DT", "photo": "/images/iced-latte.svg", "badge": null },
+      { "id": 52, "nom": "Summer Breeze", "prix": "7 DT", "photo": "/images/iced-latte.svg", "badge": null },
+      { "id": 53, "nom": "Peche and Love","prix": "7 DT", "photo": "/images/iced-latte.svg", "badge": null }
+    ]
+  },
+  {
+    "categorie": "Sweet Drinks",
+    "icone": "🥤",
+    "items": [
+      { "id": 54, "nom": "Canette",             "prix": "3,5 DT", "photo": "/images/limonade.svg", "badge": null },
+      { "id": 55, "nom": "Eau 0.5L",            "prix": "1,5 DT", "photo": "/images/limonade.svg", "badge": null },
+      { "id": 56, "nom": "Eau 1L",              "prix": "3 DT",   "photo": "/images/limonade.svg", "badge": null },
+      { "id": 57, "nom": "Eau Gazeifiee",       "prix": "3 DT",   "photo": "/images/limonade.svg", "badge": null },
+      { "id": 58, "nom": "Boisson Energetique", "prix": "7 DT",   "photo": "/images/limonade.svg", "badge": null }
+    ]
+  },
+  {
+    "categorie": "Crepes Salees",
+    "icone": "🥞",
+    "items": [
+      {
+        "id": 59,
+        "nom": "Mistral",
+        "prix": "10 DT",
+        "description": "Thon, Mozzarella, Harissa, Sauce blanche, Persil, Emince oignon frais",
+        "photo": "/images/crepe-salee.svg",
+        "badge": "Populaire"
+      },
+      {
+        "id": 60,
+        "nom": "Thon Jambon",
+        "prix": "12 DT",
+        "description": "A confirmer",
+        "photo": "/images/crepe-salee.svg",
+        "badge": null
+      }
+    ]
+  },
+  {
+    "categorie": "Crepes Sucrees",
+    "icone": "🍯",
+    "items": [
+      {
+        "id": 61,
+        "nom": "Nutella",
+        "prix": "10 DT",
+        "description": "Nutella",
+        "photo": "/images/crepe-sucree.svg",
+        "badge": "Populaire"
+      },
+      {
+        "id": 62,
+        "nom": "Snickers",
+        "prix": "12 DT",
+        "description": "Nutella, Beurre de cacahuete, Caramel, Beurre sale, Cacahuete, Snickers",
+        "photo": "/images/crepe-sucree.svg",
+        "badge": "Populaire"
+      },
+      {
+        "id": 63,
+        "nom": "Kinder Bueno",
+        "prix": "12 DT",
+        "description": "A confirmer",
+        "photo": "/images/crepe-sucree.svg",
+        "badge": null
+      }
+    ]
+  },
+  {
+    "categorie": "Panini",
+    "icone": "🥪",
+    "items": [
+      { "id": 65, "nom": "Thon Fromage",       "prix": "8 DT",  "photo": "/images/panini-item.svg", "badge": "Populaire" },
+      { "id": 66, "nom": "Thon Jambon Fromage","prix": "10 DT", "photo": "/images/panini-item.svg", "badge": null }
+    ]
+  },
+  {
+    "categorie": "Fast 007",
+    "icone": "⚡",
+    "items": [
+      {
+        "id": 67,
+        "nom": "Good Morning",
+        "prix": "10 DT",
+        "description": "Cafe au choix + Jus au choix (citron/fraise) + Viennoiserie ou croissant + Eau minerale 0,5L",
+        "photo": "/images/croissant.svg",
+        "badge": "Populaire"
+      }
+    ]
+  }
+]
+

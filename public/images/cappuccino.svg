@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#1A1008"/>
+  <rect x="0" y="0" width="400" height="4" fill="#D4AF37"/>
+  <rect x="0" y="296" width="400" height="4" fill="#D4AF37"/>
+  <circle cx="200" cy="140" r="75" fill="#D4AF37" opacity="0.08"/>
+  <circle cx="200" cy="140" r="55" fill="#D4AF37" opacity="0.08"/>
+  <text x="200" y="158" font-family="Arial,sans-serif" font-size="72" text-anchor="middle">🍵</text>
+  <text x="200" y="210" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="#D4AF37" text-anchor="middle">Cappuccino Goldeneye</text>
+  <rect x="170" y="220" width="60" height="1.5" fill="#D4AF37" opacity="0.5"/>
+</svg>

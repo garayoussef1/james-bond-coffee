@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#141008"/>
+  <rect x="0" y="0" width="400" height="4" fill="#E8C84A"/>
+  <rect x="0" y="296" width="400" height="4" fill="#E8C84A"/>
+  <circle cx="200" cy="140" r="75" fill="#E8C84A" opacity="0.08"/>
+  <circle cx="200" cy="140" r="55" fill="#E8C84A" opacity="0.08"/>
+  <text x="200" y="158" font-family="Arial,sans-serif" font-size="72" text-anchor="middle">🍞</text>
+  <text x="200" y="210" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="#E8C84A" text-anchor="middle">Toast Mission Secrète</text>
+  <rect x="170" y="220" width="60" height="1.5" fill="#E8C84A" opacity="0.5"/>
+</svg>
