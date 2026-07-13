@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 // Modifie ces valeurs pour ton réseau réel
 const WIFI_SSID = '007James-bond'
-const WIFI_PASSWORD = 'Shaken007!'
+const WIFI_PASSWORD = 'À vos ordres, agent 007'
 
 export default function WifiButton() {
   const [open, setOpen] = useState(false)
