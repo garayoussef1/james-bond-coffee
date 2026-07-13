@@ -135,7 +135,7 @@
         "id": 59,
         "nom": "Mistral",
         "prix": "10 DT",
-        "description": "Thon, Mozzarella, Harissa, Sauce blanche, Persil, Emince oignon frais",
+        "description": "Thon, Mozzarella, Harissa, Sauce blanche, Persil",
         "photo": "/images/crepe-salee.svg",
         "badge": "Populaire"
       },
@@ -143,7 +143,7 @@
         "id": 60,
         "nom": "Thon Jambon",
         "prix": "12 DT",
-        "description": "Thon, Jambon, Mozzarella, Sauce blanche, Persil, Emince oignon frais",
+        "description": "Thon, Jambon, Mozzarella, Sauce blanche, Persil",
         "photo": "/images/crepe-salee.svg",
         "badge": null
       },
@@ -191,8 +191,8 @@
     "categorie": "Panini",
     "icone": "🥪",
     "items": [
-      { "id": 65, "nom": "Thon Fromage",       "prix": "8 DT",  "photo": "/images/panini-item.svg", "badge": "Populaire" },
-      { "id": 66, "nom": "Thon Jambon Fromage","prix": "10 DT", "photo": "/images/panini-item.svg", "badge": null }
+      { "id": 65, "nom": "Thon Fromage",       "prix": "8 DT",  "description": "Thon, Fromage, servi avec frites", "photo": "/images/panini-item.svg", "badge": "Populaire" },
+      { "id": 66, "nom": "Thon Jambon Fromage","prix": "10 DT", "description": "Thon, Jambon, Fromage, servi avec frites", "photo": "/images/panini-item.svg", "badge": null }
     ]
   },
   {
