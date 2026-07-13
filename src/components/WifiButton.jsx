@@ -1,32 +1,10 @@
-// Composant bouton WiFi flottant + modale avec identifiants réseau
+// Composant bouton WiFi flottant + modale réseau ouvert
 import { useState } from 'react'
 
-// Modifie ces valeurs pour ton réseau réel
 const WIFI_SSID = '007James-bond'
-const WIFI_PASSWORD = 'À vos ordres, agent 007'
 
 export default function WifiButton() {
   const [open, setOpen] = useState(false)
-  const [copied, setCopied] = useState(false)
-
-  // Copie le mot de passe dans le presse-papiers
-  const handleCopy = async () => {
-    try {
-      await navigator.clipboard.writeText(WIFI_PASSWORD)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 2000)
-    } catch {
-      // Fallback pour les anciens navigateurs
-      const el = document.createElement('textarea')
-      el.value = WIFI_PASSWORD
-      document.body.appendChild(el)
-      el.select()
-      document.execCommand('copy')
-      document.body.removeChild(el)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 2000)
-    }
-  }
 
   return (
     <>
@@ -34,7 +12,7 @@ export default function WifiButton() {
       <button
         className="wifi-button"
         onClick={() => setOpen(true)}
-        aria-label="Voir le mot de passe WiFi"
+        aria-label="Connexion WiFi"
         title="WiFi"
       >
         📶
@@ -49,7 +27,7 @@ export default function WifiButton() {
           <div className="modal">
             <div className="modal__handle" />
 
-            <h2 className="modal__title">📶 Connexion WiFi</h2>
+            <h2 className="modal__title">📶 WiFi Gratuit</h2>
 
             {/* Nom du réseau */}
             <div className="modal__row">
@@ -59,18 +37,14 @@ export default function WifiButton() {
               </div>
             </div>
 
-            {/* Mot de passe + copier */}
+            {/* Connexion automatique */}
             <div className="modal__row">
               <div>
                 <p className="modal__label">Mot de passe</p>
-                <p className="modal__value">{WIFI_PASSWORD}</p>
+                <p className="modal__value" style={{ color: 'var(--gold)' }}>
+                  Aucun — connexion automatique ✓
+                </p>
               </div>
-              <button
-                className={`modal__copy-btn ${copied ? 'copied' : ''}`}
-                onClick={handleCopy}
-              >
-                {copied ? '✓ Copié !' : 'Copier'}
-              </button>
             </div>
 
             <button className="modal__close" onClick={() => setOpen(false)}>
